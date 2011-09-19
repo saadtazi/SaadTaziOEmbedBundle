@@ -2,7 +2,7 @@ Introduction
 ------------
 SaadTaziOEmbedBundle is a simple Symfony bundle that fetches OEmbed data.
 
-It uses the simple-oembed PHP5.3 library (https://github.com/saadtazi/simple-oembed)
+It uses the simple-oembed PHP5.3 library I created (https://github.com/saadtazi/simple-oembed)
  
 Read more about oembed here: http://oembed.com
 
@@ -10,7 +10,7 @@ Read more about oembed here: http://oembed.com
 Installation
 ------------
 
-  1. Add this bundle to your and the Facebook PHP SDK to your ``vendor/`` dir:
+  1. Add this bundle and the simple-oembed PHP5.3 library to your ``vendor/`` dir:
       * Using the vendors script.
 
         Add the following lines in your ``deps`` file::
