@@ -17,7 +17,7 @@ Installation
 
             [SaadTaziOEmbedBundle]
                 git=git://github.com/SaadTazi/OEmbedBundle.git
-                target=/bundles/SaadTazi/OEmbedBundle
+                target=/bundles/SaadTazi/Bundle/OEmbedBundle
             
             [simple-oembed]
                 git=git://github.com/SaadTazi/simple-oembed.git
@@ -29,7 +29,7 @@ Installation
 
       * Using git submodules.
 
-            $ git submodule add git://github.com/SaadTazi/OEmbedBundle.git vendor/bundles/SaadTazi/OEmbedBundle
+            $ git submodule add git://github.com/SaadTazi/OEmbedBundle.git vendor/bundles/SaadTazi/Bundle/OEmbedBundle
             $ git submodule add git://github.com/SaadTazi/simple-oembed.git vendor/simple-oembed
 
   2. Add the SaadTazi namespace to your autoloader:
