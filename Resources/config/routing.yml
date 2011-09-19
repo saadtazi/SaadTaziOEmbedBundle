@@ -1,0 +1,3 @@
+SaadTaziOEmbedBundle_homepage:
+    pattern:  /demo
+    defaults: { _controller: SaadTaziOEmbedBundle:Demo:demo }

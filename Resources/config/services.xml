@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <parameters>
+        <parameter key="saad_tazi_o_embed.service_class">OEmbed\OEmbedService</parameter>
+        <parameter key="saad_tazi_o_embed.endpoints" type="collection"/>
+        <parameter key="saad_tazi_o_embed.discovery">false</parameter>
+        <parameter key="saad_tazi_o_embed.allowedurls" type="collection"/>
+            
+    </parameters>
+
+    <services>
+        
+        
+        <service id="saadtazi_oembed" class="%saad_tazi_o_embed.service_class%">
+            <argument type="collection"/>
+            <!--argument type="collection" />
+                <argument key="pattern" type="string"></argument>
+                <argument key="url" type="string"></argument>
+                <argument key="pattern" type="string"></argument>
+            </argument-->
+            <argument>%saad_tazi_o_embed.discovery%</argument>
+            <argument type="collection" />
+        </service>
+        
+    </services>
+    
+</container>
