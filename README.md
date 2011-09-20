@@ -59,7 +59,7 @@ Installation
           }
 ```
 
-  4. Configure the `saad` service in your config:
+  4. Configure the `saad_tazi_o_embed` service in your config:
 
 ``` yaml
     saad_tazi_o_embed:
@@ -78,6 +78,7 @@ Example
 -------
 
 In a controller, do the following:
+
 ``` php
 
         $oembed = $this->get('saadtazi_oembed');
